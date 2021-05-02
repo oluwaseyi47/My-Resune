@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+.profile-img{
+    float: right;
+    margin: 20px;
+    width: 40%;
+   
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.education h3{
+    margin-top: 15px;
+}
+
+.experience h3{
+    margin-top: 15px;
+}
+.about{
+    margin-left: 25px;
+}
+
+.profile-info{
+    float: left;
+    padding: 0 30px;
+    width: 55%;
+}
+
+.profile-info h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.social-media img{
+    height: 30px;
+}
+.social-media{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.profile-info h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.expertise img{
+    
+    margin: 5px;
+    width: 80%;
+}
+.expertise{
+    display: inline-block;
+    /* width: 50%? */
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+    background: #ffffff;
+    margin-left: 10px;
+}
+.expertise .about{
+    padding-top: 10px;
+    display: block;
+}
+#expertise{
+    display: flex;
+}
+.form-box{
+    margin-top: 30px;
+}
+.input-group input{
+    width: 45%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+    background: #ffffff;
+}
+.text-area{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    padding: 10px;
+    margin: 2%;
+    background: #ffffff;
+
+}
+.submit-btn{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    background: blueviolet;
+    cursor: pointer;
+    color: white;
+
+}
+
+.contact img{
+    width: 20px;
+    margin: -5px 10px;
+}
+.contact span{
+    margin: 5%;
+}
+.contact{
+    margin: 5% 0 5% 25%;
+    width: 85%;
+}
+.copy-right{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    *{
+        box-sizing: border-box;
+    }
+   .profile-img{
+       width: 80%;
+      margin: 10px 20px;
+   }
+   .profile-img img{
+       margin-right: 10px;
+   }
+   .profile-info {
+       width: 100%;
+       text-align: center;
+   }
+   .expertise{
+       width: 100%;
+       margin-left: 5px;
+   }
+
+   .form-box{
+       margin-left:10px;
+   }
+   .contact{
+       width: 100%;
+       text-align: center;
+   }
+  .gmail{
+      width: 100%;
+  }
+}
