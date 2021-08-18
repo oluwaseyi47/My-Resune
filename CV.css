@@ -6,6 +6,43 @@
 body{
     background-color: aqua;
 }
+
+#nav-logo img{
+    width: 200px;
+}
+#nav-logo{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+#nav-logo blockquote{
+    color: darkgreen;
+}
+
+#nav-logo button a{
+    text-decoration: none;
+    color: darkslategray;
+    background-color: darksalmon;
+    border: none;
+}
+.about button{
+    background-color:teal;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+
+nav{
+    display: flex;
+}
+nav h2{
+    color: brown;
+    margin-left: 500px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .profile-img{
     float: right;
     margin: 20px;
@@ -27,6 +64,7 @@ body{
 }
 .about{
     margin-left: 25px;
+    margin-top: 40px;
 }
 
 .profile-info{
@@ -43,7 +81,7 @@ body{
     height: 30px;
 }
 .social-media{
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 25px;
 }
 
